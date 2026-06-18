@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regularización de Viviendas en San Felipe, Los Andes y el Valle del Aconcagua | Averarq</title>
+<meta name="description" content="¿Construiste sin permiso? Regularizo ampliaciones, viviendas y locales ante la DOM en San Felipe, Los Andes y todo el Valle del Aconcagua. Arquitecto PUCV. Acogida a Ley del Mono (20.898). Conversemos sin compromiso.">
+<meta name="theme-color" content="#FF4D00">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://averarq.cl/regularizaciones">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Regularización de Viviendas en el Valle del Aconcagua | Averarq">
+<meta property="og:description" content="Regularizo ampliaciones, viviendas y locales sin permiso ante la DOM. San Felipe, Los Andes, Llay-Llay y alrededores. Arquitecto PUCV.">
+<meta property="og:url" content="https://averarq.cl/regularizaciones">
+<meta property="og:locale" content="es_CL">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Barlow+Condensed:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+
+<!-- Schema.org: ProfessionalService -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Averarq · Arquitectura & Construcción",
+  "description": "Regularización de obras, ampliaciones y viviendas ante la Dirección de Obras Municipales en el Valle del Aconcagua.",
+  "url": "https://averarq.cl/regularizaciones",
+  "founder": {
+    "@type": "Person",
+    "name": "Alejandro Vera Donoso",
+    "jobTitle": "Arquitecto",
+    "alumniOf": "Pontificia Universidad Católica de Valparaíso"
+  },
+  "areaServed": [
+    {"@type": "City", "name": "Llay-Llay"},
+    {"@type": "City", "name": "Catemu"},
+    {"@type": "City", "name": "San Felipe"},
+    {"@type": "City", "name": "Los Andes"},
+    {"@type": "City", "name": "Rinconada"},
+    {"@type": "City", "name": "Quillota"}
+  ],
+  "serviceType": "Regularización de edificaciones ante la DOM",
+  "telephone": "+56954317945",
+  "sameAs": [
+    "https://instagram.com/averarq",
+    "https://www.linkedin.com/in/a-vera-donoso/"
+  ]
+}
+</script>
+
+<!-- Schema.org: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué es regularizar una vivienda?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Regularizar es el proceso de obtener el reconocimiento legal ante la Dirección de Obras Municipales de una construcción que se levantó sin permiso de edificación o sin recepción final. Incluye el levantamiento del estado actual de la obra, la elaboración de los planos as-built y la tramitación del expediente ante la DOM hasta obtener la recepción."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la Ley del Mono?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La Ley del Mono (Ley 20.898 y sus prórrogas) es una normativa que permite regularizar de forma simplificada ampliaciones y viviendas construidas sin permiso, bajo ciertos requisitos de superficie y antigüedad. Permite acogerse a un procedimiento más expedito que la regularización ordinaria."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Por qué debería regularizar mi propiedad?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Una propiedad regularizada se puede vender, hipotecar y heredar sin trabas. Sin recepción municipal, una vivienda o ampliación queda fuera de los registros legales, lo que bloquea créditos, subdivisiones y la venta formal, y expone al propietario a multas."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --naranja: #FF4D00;
+    --oscuro: #111110;
+    --medio: #1e1e1c;
+    --gris: #888880;
+    --claro: #f2f0eb;
+    --blanco: #ffffff;
+    --display: 'Barlow Condensed', sans-serif;
+    --body: 'Barlow', sans-serif;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--oscuro);
+    color: var(--claro);
+    font-family: var(--body);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 2rem;
+    background: rgba(17,17,16,0.92);
+    backdrop-filter: blur(8px);
+    border-bottom: 0.5px solid rgba(255,255,255,0.07);
+  }
+  .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+  .logo-icon { width: 32px; height: 32px; border-radius: 6px; display: block; }
+  .logo-text {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.08em;
+    color: var(--claro);
+  }
+  .nav-cta {
+    font-family: var(--body);
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--naranja);
+    text-decoration: none;
+    border: 0.5px solid var(--naranja);
+    padding: 6px 16px;
+    border-radius: 2px;
+    transition: background 0.2s, color 0.2s;
+  }
+  .nav-cta:hover { background: var(--naranja); color: white; }
+
+  /* CONTENEDOR */
+  .wrap { max-width: 920px; margin: 0 auto; padding: 0 2rem; }
+
+  /* HERO */
+  .hero {
+    padding: 9rem 0 4rem;
+    border-bottom: 0.5px solid rgba(255,255,255,0.07);
+  }
+  .eyebrow {
+    font-family: var(--display);
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 13px;
+    color: var(--naranja);
+    margin-bottom: 1.5rem;
+  }
+  .hero h1 {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: clamp(2.4rem, 6vw, 4.2rem);
+    line-height: 1.02;
+    letter-spacing: -0.01em;
+    margin-bottom: 1.5rem;
+  }
+  .hero h1 em { font-style: italic; color: var(--naranja); }
+  .hero .lead {
+    font-size: clamp(1.05rem, 2.2vw, 1.3rem);
+    max-width: 640px;
+    color: var(--claro);
+    margin-bottom: 2.5rem;
+  }
+  .btn-row { display: flex; flex-wrap: wrap; gap: 1rem; }
+  .btn {
+    font-family: var(--body);
+    font-size: 15px;
+    text-decoration: none;
+    padding: 13px 26px;
+    border-radius: 2px;
+    transition: all 0.2s;
+    display: inline-block;
+  }
+  .btn-primary { background: var(--naranja); color: white; }
+  .btn-primary:hover { background: #ff6a2b; }
+  .btn-ghost { border: 0.5px solid rgba(255,255,255,0.25); color: var(--claro); }
+  .btn-ghost:hover { border-color: var(--claro); }
+
+  /* SECCIONES */
+  section { padding: 4.5rem 0; border-bottom: 0.5px solid rgba(255,255,255,0.07); }
+  .section-label {
+    font-family: var(--display);
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 12px;
+    color: var(--gris);
+    margin-bottom: 1.75rem;
+  }
+  h2 {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    line-height: 1.08;
+    margin-bottom: 1.5rem;
+  }
+  h2 em { font-style: italic; color: var(--naranja); }
+  p { margin-bottom: 1.1rem; max-width: 680px; }
+  p:last-child { margin-bottom: 0; }
+  strong { font-weight: 500; color: var(--blanco); }
+
+  /* CASOS */
+  .casos { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: rgba(255,255,255,0.07); border: 0.5px solid rgba(255,255,255,0.07); }
+  .caso { background: var(--oscuro); padding: 2rem 1.75rem; }
+  .caso .num {
+    font-family: var(--display);
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: var(--naranja);
+    margin-bottom: 0.75rem;
+  }
+  .caso h3 {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 1.35rem;
+    margin-bottom: 0.6rem;
+  }
+  .caso p { font-size: 0.95rem; color: var(--gris); }
+
+  /* PROCESO */
+  .pasos { counter-reset: paso; margin-top: 1rem; }
+  .paso {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.4rem 0;
+    border-top: 0.5px solid rgba(255,255,255,0.07);
+  }
+  .paso:first-child { border-top: none; }
+  .paso .pn {
+    font-family: var(--display);
+    font-size: 1.6rem;
+    color: var(--naranja);
+    line-height: 1;
+    min-width: 38px;
+  }
+  .paso h3 { font-family: var(--display); font-weight: 600; font-size: 1.25rem; margin-bottom: 0.35rem; }
+  .paso p { font-size: 0.97rem; color: var(--gris); }
+
+  /* FAQ */
+  details {
+    border-top: 0.5px solid rgba(255,255,255,0.07);
+    padding: 1.3rem 0;
+  }
+  details:last-of-type { border-bottom: 0.5px solid rgba(255,255,255,0.07); }
+  summary {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: '+'; color: var(--naranja); font-size: 1.5rem; font-weight: 300; }
+  details[open] summary::after { content: '–'; }
+  details p { margin-top: 0.9rem; color: var(--gris); }
+
+  /* CTA FINAL */
+  .cta-final { text-align: center; padding: 5rem 0; }
+  .cta-final h2 { margin-bottom: 1.25rem; }
+  .cta-final p { margin: 0 auto 2.25rem; color: var(--gris); }
+
+  /* COBERTURA */
+  .zonas { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.5rem; }
+  .zona {
+    font-size: 0.9rem;
+    color: var(--gris);
+    border: 0.5px solid rgba(255,255,255,0.12);
+    padding: 5px 14px;
+    border-radius: 2px;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 2.5rem 2rem;
+    text-align: center;
+    color: var(--gris);
+    font-size: 0.85rem;
+  }
+  footer a { color: var(--naranja); text-decoration: none; }
+
+  @media (max-width: 600px) {
+    .casos { grid-template-columns: 1fr; }
+    nav { padding: 1rem 1.25rem; }
+    .wrap { padding: 0 1.25rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="logo" aria-label="Averarq inicio"><img class="logo-icon" src="data:image/png;base64,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" alt="Averarq logo" width="32" height="32"><span class="logo-text">AVERARQ</span></a>
+  <a href="#contacto" class="nav-cta">Conversemos</a>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Regularizaciones · Valle del Aconcagua</p>
+    <h1>¿Construiste <em>sin permiso?</em> Pongamos tu propiedad en regla.</h1>
+    <p class="lead">Levanto, documento y tramito ante la Dirección de Obras Municipales las construcciones que se hicieron sin permiso de edificación o sin recepción final. Ampliaciones, viviendas completas y locales en San Felipe, Los Andes y todo el valle.</p>
+    <div class="btn-row">
+      <a href="https://wa.me/56954317945?text=Hola%20%2AAverarq%2A%3B%20quiero%20regularizar%20una%20propiedad%20y%20me%20gustar%C3%ADa%20conversar%20mi%20caso." class="btn btn-primary" target="_blank" rel="noopener">Consultar por WhatsApp</a>
+      <a href="#proceso" class="btn btn-ghost">Ver cómo funciona</a>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <p class="section-label">El problema</p>
+    <h2>Una construcción sin recepción <em>no existe</em> para el sistema.</h2>
+    <p>Mientras una ampliación o vivienda no esté regularizada ante la DOM, tu propiedad queda atrapada: no se puede vender con escritura limpia, no califica para crédito hipotecario, no se puede subdividir ni heredar sin trabas, y queda expuesta a multas municipales.</p>
+    <p>La buena noticia es que casi todo es regularizable. El camino correcto depende de la antigüedad de la obra, su superficie y si calza con el plan regulador. Mi trabajo es leer tu caso, decirte con franqueza por dónde va, y dejarlo resuelto.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="section-label">Qué regularizo</p>
+    <div class="casos">
+      <div class="caso">
+        <p class="num">01</p>
+        <h3>Ampliaciones sin permiso</h3>
+        <p>Dormitorios, segundos pisos, quinchos, bodegas o cualquier metraje agregado a una vivienda existente sin haberlo tramitado.</p>
+      </div>
+      <div class="caso">
+        <p class="num">02</p>
+        <h3>Viviendas sin recepción</h3>
+        <p>Casas construidas completas que nunca obtuvieron la recepción final municipal y por eso no figuran legalmente como habitables.</p>
+      </div>
+      <div class="caso">
+        <p class="num">03</p>
+        <h3>Ley del Mono (20.898)</h3>
+        <p>Acogida al procedimiento simplificado para regularizar ampliaciones y viviendas que cumplen los requisitos de superficie y antigüedad.</p>
+      </div>
+      <div class="caso">
+        <p class="num">04</p>
+        <h3>Locales comerciales</h3>
+        <p>Regularización de obras y cambios de destino para locales, oficinas y espacios comerciales que requieren patente o recepción.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="proceso">
+  <div class="wrap">
+    <p class="section-label">El proceso</p>
+    <h2>De la obra construida <em>a la recepción final.</em></h2>
+    <div class="pasos">
+      <div class="paso">
+        <span class="pn">1</span>
+        <div>
+          <h3>Conversamos tu caso</h3>
+          <p>Me cuentas qué construiste y cuándo. Reviso la factibilidad sin compromiso y te digo con honestidad por qué camino va y qué esperar.</p>
+        </div>
+      </div>
+      <div class="paso">
+        <span class="pn">2</span>
+        <div>
+          <h3>Visita y levantamiento as-built</h3>
+          <p>Voy a terreno, mido el estado real de la obra y levanto los planos que reflejan lo efectivamente construido, base de todo el expediente.</p>
+        </div>
+      </div>
+      <div class="paso">
+        <span class="pn">3</span>
+        <div>
+          <h3>Expediente y tramitación ante la DOM</h3>
+          <p>Preparo la documentación completa y la ingreso a la Dirección de Obras, respondiendo observaciones y gestionando el proceso por ti.</p>
+        </div>
+      </div>
+      <div class="paso">
+        <span class="pn">4</span>
+        <div>
+          <h3>Recepción final</h3>
+          <p>Tu propiedad queda regularizada y reconocida legalmente: lista para vender, hipotecar, subdividir o heredar sin trabas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="section-label">Preguntas frecuentes</p>
+    <h2>Lo que más me <em>preguntan.</em></h2>
+    <details>
+      <summary>¿Cuánto demora regularizar una propiedad?</summary>
+      <p>Depende del tipo de obra y de la carga de la DOM correspondiente. Una acogida a Ley del Mono suele ser más expedita que una regularización ordinaria. En nuestra primera conversación te doy un rango realista para tu caso específico, sin promesas vacías.</p>
+    </details>
+    <details>
+      <summary>¿Qué es la Ley del Mono y me sirve?</summary>
+      <p>Es una normativa (Ley 20.898 y sus prórrogas) que permite regularizar de forma simplificada ampliaciones y viviendas sin permiso que cumplen ciertos requisitos de superficie y antigüedad. No todos los casos califican, por eso lo primero es revisar el tuyo: si aplica, el camino es bastante más corto.</p>
+    </details>
+    <details>
+      <summary>¿Qué documentos necesito para empezar?</summary>
+      <p>Lo ideal es tener a mano la escritura o título de dominio y el certificado de avalúo. Si no los tienes completos, no te preocupes: parte de mi trabajo es ayudarte a reunir y ordenar lo que falte.</p>
+    </details>
+    <details>
+      <summary>¿Por qué me conviene regularizar si la casa ya está construida y la habito?</summary>
+      <p>Porque sin recepción municipal tu propiedad no se puede vender con escritura limpia, no califica para crédito, no se puede subdividir ni transferir sin problemas, y queda expuesta a multas. Regularizar convierte un activo "invisible" en un patrimonio que puedes usar plenamente.</p>
+    </details>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="section-label">Zona de cobertura</p>
+    <h2>Trabajo en todo el <em>Valle del Aconcagua.</em></h2>
+    <p>Con base en Llay-Llay, atiendo regularizaciones en el valle y la V Región. Si tu propiedad está fuera de la zona, conversemos igual: lo vemos.</p>
+    <div class="zonas">
+      <span class="zona">Llay-Llay</span>
+      <span class="zona">Catemu</span>
+      <span class="zona">San Felipe</span>
+      <span class="zona">Los Andes</span>
+      <span class="zona">Rinconada</span>
+      <span class="zona">Quillota</span>
+      <span class="zona">La Calera</span>
+      <span class="zona">Nogales</span>
+      <span class="zona">Hijuelas</span>
+      <span class="zona">Viña del Mar</span>
+      <span class="zona">Valparaíso</span>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="cta-final">
+  <div class="wrap">
+    <h2>¿Tienes una obra <em>sin regularizar?</em></h2>
+    <p>Cuéntame tu caso. Reviso la factibilidad sin compromiso y te digo con franqueza por dónde va. Sin formularios, solo una conversación directa.</p>
+    <div class="btn-row" style="justify-content:center;">
+      <a href="https://wa.me/56954317945?text=Hola%20%2AAverarq%2A%3B%20quiero%20regularizar%20una%20propiedad%20y%20me%20gustar%C3%ADa%20conversar%20mi%20caso." class="btn btn-primary" target="_blank" rel="noopener">WhatsApp · +56 9 5431 7945</a>
+      <a href="https://instagram.com/averarq" class="btn btn-ghost" target="_blank" rel="noopener">Instagram · @averarq</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Averarq SpA · Alejandro Vera Donoso · Arquitecto PUCV ·
+  <a href="/">Volver al inicio</a>
+</footer>
+
+</body>
+</html>
