@@ -30,8 +30,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-   <url>
+  <url>
     <loc>https://averarq.cl/arquitecto-la-calera</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://averarq.cl/arquitecto-catemu</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
